@@ -1,0 +1,36 @@
+h1 {
+    font-size: 42px;
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.color-button {
+    width: 100px;  
+    height: 100px; 
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
