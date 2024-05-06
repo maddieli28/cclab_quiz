@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 inputElement.appendChild(document.createElement('br')); 
             });
         }
-        // ... handle other input types here
 
         inputElement.id = 'user-input';
         questionElement.appendChild(inputElement);
